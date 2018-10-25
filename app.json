@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/webview/webview"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Super",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "assets/imgs/homeGray.png",
+      "selectedIconPath": "assets/imgs/home.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "assets/imgs/storeYardsGray.png",
+      "selectedIconPath": "assets/imgs/storeYards.png",
+      "text": "日志"
+    },{
+      "pagePath": "pages/webview/webview",
+      "iconPath": "assets/imgs/storeYardsGray.png",
+      "selectedIconPath": "assets/imgs/storeYards.png",
+      "text": "web"
+    }],
+    "backgroundColor": "#fefefe",
+    "selectedColor": "#d46575",
+    "color": "#333"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

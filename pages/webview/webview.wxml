@@ -1,0 +1,5 @@
+<view class="full_size">
+  <text>webview</text>
+  <!-- <web-view class='full_size' src="https://club.hshshy.com/yxclub/Public/web/dist/club/"></web-view> -->
+  <web-view class='full_size' src="https://www.baidu.com"></web-view>
+</view>
