@@ -1,0 +1,5 @@
+<!--pages/login/index.wxml-->
+<view>
+  <button class="pd-s20" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">点击打开授权</button>
+</view>
+

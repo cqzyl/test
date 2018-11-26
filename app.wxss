@@ -1,6 +1,73 @@
 /**app.wxss**/
+page {
+  background-color: #fefefe;
+  height: 100%;
+}
 
-.full_size {
+/* display */
+.dib {
+  display: inline-block;
+}
+
+/* 定位 position */
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.pf {
+  position: fixed;
+}
+
+/* 大小 width height */
+.full-size {
   width: 100%;
   height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.col-12 {
+  width: 100%;
+}
+.col-6 {
+  width: 50%;
+}
+
+/* padding */
+.pd-s20 {
+  padding: 20rpx;
+}
+/* margin */
+.mg-t-fr5 {
+  margin-top: .5em;
+}
+.mg-r-fr5 {
+  margin-right: .5em;
+}
+/* color */
+.clr-main {
+  color: #474847;
+}
+
+.clr-minor {
+  color: #7e7d83;
+}
+
+.bgclr-main {
+  background-color: #474847;
+}
+
+.bgclr-minor {
+  background-color: #7e7d83;
+}
+
+/* font-size */
+.font-s28 {
+  font-size: 28rpx;
 }

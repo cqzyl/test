@@ -1,0 +1,14 @@
+<scroll-view class="pr">
+  <canvas canvas-id="mydoc" class="mydoc col-12"></canvas>
+  <cover-view class="pf action">
+    <button class="font-s28 btn" bindtap="compileBtnTo">
+      <cover-image class="dib mg-r-fr5" src="/assets/imgs/change.png"/>
+      <cover-view>编辑</cover-view>
+    </button>
+    <button class="font-s28 btn mg-t-fr5"
+      open-type="share">
+      <cover-image class="dib mg-r-fr5" src="/assets/imgs/share.png"/>
+      <cover-view>转发</cover-view>
+    </button>
+  </cover-view>
+</scroll-view>

@@ -1,0 +1,24 @@
+.mydoc {
+  height: 1750rpx;
+}
+.action {
+  bottom: 20rpx;
+  left: 30rpx;
+}
+.btn {
+  padding:.5em;
+  line-height: 1.5;
+  background-color: transparent;
+}
+.btn::after {
+  border: none;
+}
+.btn cover-image {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+.btn cover-view {
+  display: inline-block;
+  vertical-align: middle;
+}
